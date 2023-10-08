@@ -1,0 +1,67 @@
+/* .lightSpinner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #000006 94%, #0000) top/8px 8px
+      no-repeat,
+    conic-gradient(#0000 30%, #02010f);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
+  animation: load1 1s infinite linear;
+}
+
+@keyframes load1 {
+  100% {
+    transform: rotate(1turn);
+  }
+} */
+
+
+.lightSpinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   background: radial-gradient(farthest-side,#000000 94%,#0000) top/9px 9px no-repeat,
+          conic-gradient(#0000 30%,#000000);
+   -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
+   animation: blackLoader 1s infinite linear;
+}
+
+@keyframes blackLoader {
+   100% {
+      transform: rotate(1turn);
+   }
+}
+
+/* .darkSpinner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #dedee0 94%, #f5f3f300) top/8px 8px
+      no-repeat,
+    conic-gradient(#fcfbfb00 30%, #f4f4f7);
+  -webkit-mask: radial-gradient(farthest-side, #faf9f900 calc(100% - 8px), #fcfafa 0);
+  animation: load2 1s infinite linear;
+}
+
+@keyframes load2 {
+  100% {
+    transform: rotate(1turn);
+  }
+} */
+
+
+.darkSpinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   background: radial-gradient(farthest-side,#ffffff 94%,#0000) top/9px 9px no-repeat,
+          conic-gradient(#0000 30%,#ffffff);
+   -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
+   animation: whiteLoader 1s infinite linear;
+}
+
+@keyframes whiteLoader {
+   100% {
+      transform: rotate(1turn);
+   }
+}
